@@ -142,7 +142,7 @@ h2 {
 
 .container3 {
   font-family: "Titillium Web", sans-serif;
-  background-color: rgb(249, 247, 247);
+  background-color: #f6f6f6;
   padding: 20px;
   width: 98%;
   margin-top: 100px;
@@ -159,17 +159,17 @@ h2 {
 
 .container4 {
   width: 98%;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 80px;
 }
 
 .container4 p {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .container4 h3 { 
   font-family: "Roboto Condensed", sans-serif;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .container4 h4 {
@@ -178,8 +178,23 @@ h2 {
   margin-top: 10px;
   font-size: 18px;
   color: #205295;
+  margin-left: 5px;
   
 }
 .col-3{
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+}
+
+.btn:hover, .btn-outline-primary{
+  background-color: #205295 !important;
+  color: white !important;
+  border-color: #205295;
+
+}
+.btn{
+  border-color: #205295;
+  color:#205295 ;
+  border-radius: 0;
+  margin-bottom: 15px;
+ 
 }
