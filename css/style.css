@@ -209,3 +209,27 @@ h2 {
   width: 100%;
   transition: 300ms;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .transition:hover::after {
+    width: 70px;
+  }
+
+}
